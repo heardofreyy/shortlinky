@@ -37,11 +37,11 @@ nav{
     cursor: pointer;
     display: block;
     width: 200px;
+    /* margin-left: px; */
     padding: 15px;
     font-size: 23px;
     font-family: "Montserrat",sans-serif;
     font-weight: 500;    
-    /* border: 3px solid #3b3b4f; */
     transition: all 0.3s ease 0s;
     border-radius: 8px;
     background-color: #0abf50;
@@ -55,13 +55,14 @@ nav{
 
 form {
     background-color: white;
-    border-radius: 100px;
-    width: 1500px;
+    border-radius: 80px;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 80px;
+    padding-right: 20px;
 }
 
 .input {
